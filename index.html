@@ -84,7 +84,8 @@
               <div class="about-me-text">
                 <h2 class="section-title">My Stories</h2>
                 <p>Experienced software engineer with a decade of expertise in modernizing outdated technologies into contemporary languages such as Python, GoLang and NodeJS. Skilled in cloud technologies, including AWS and Google Cloud Platform, and proficient in CI/CD with GitHub Actions and Terraform. Adept at version control with Git, Bitbucket, and RTC, with a passion for keeping up-to-date with the latest advancements in the field. Strong communication skills and ability to work collaboratively with cross-functional teams, resulting in successful project deliveries.</p>
-                <a class="about-button" href="#contact">Hire Me</a>
+                <!-- <a class="about-button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/romulo-gatto/30min'});return false;">Let's meet</a> -->
+                <a class="about-button" href="#contact" onclick="$('#open_calendly').click()">Hire Me</a>
                 <a class="about-button" target="_blank" href="assets/files/resume.pdf">Download CV</a>
               </div>
               <!-- end:personal description -->
@@ -383,7 +384,7 @@
           <div class="col-sm-12 col-md-12 text-center wow zoomIn" data-wow-delay="0.5s" data-wow-duration="1s">
             <h2 class="section-title">Contact Me</h2>
             <p style="padding-left: 20px; padding-right: 20px;" class="lead">Want to chat about your upcoming project? Let's connect over Google Meet and explore how I can help bring your vision to life.</p>
-            <a class="about-button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/romulo-gatto/30min'});return false;">Let's meet</a>
+            <a class="about-button" id="open_calendly" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/romulo-gatto/30min'});return false;">Let's meet</a>
             <!-- <p>As an experienced software engineer with a deep passion for coding, I'm always looking for new and exciting opportunities to apply my skills. If you have a software engineering project you'd like to discuss, I'm eager to hear more and explore how I can contribute.</p> -->
           </div>
           <!-- <div class="col-sm-6 col-md-offset-1 wow zoomIn" data-wow-delay="0.5s" data-wow-duration="1s"> -->
